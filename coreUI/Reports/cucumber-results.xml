@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="96.426509">
-    <testcase classname="Customer Operation" name="Add a new customer in customer page" time="41.065031">
-        <system-out>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="127.338757">
+    <testcase classname="Customer Operation" name="Add a new customer in customer page" time="26.437876">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login\-button&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 5923ec53e50e4dedcc316162e8f7acc5&#10;*** Element info: {Using=class name, value=login-button}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)&#13;&#10;&#9;at org.openqa.selenium.By$ByClassName.findElement(By.java:389)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy24.click(Unknown Source)&#13;&#10;&#9;at pageObjects.LoginPage.clkSubmit(LoginPage.java:50)&#13;&#10;&#9;at stepDefinations.Steps.click_on_Login(Steps.java:104)&#13;&#10;&#9;at ✽.And Click on Login(./Features/CustomerOperation.feature:7)&#13;&#10;">
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
-And Click on Login..........................................................passed
-Then user should land on the Dashboard page.................................passed
-Then user should click on customer which is on the left sidebar.............passed
-Then Click on Customer submenu of Customer menubar..........................passed
-Then Click on Add New button................................................passed
-Then User should fill all the details and save it...........................passed
-Then User can see the confirmation message as "The new customer has been added successfully".passed
-Then click on logout........................................................passed
+And Click on Login..........................................................failed
+Then user should land on the Dashboard page.................................skipped
+Then user should click on customer which is on the left sidebar.............skipped
+Then Click on Customer submenu of Customer menubar..........................skipped
+Then Click on Add New button................................................skipped
+Then User should fill all the details and save it...........................skipped
+Then User can see the confirmation message as "The new customer has been added successfully".skipped
+Then click on logout........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".login\-button"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5923ec53e50e4dedcc316162e8f7acc5
+*** Element info: {Using=class name, value=login-button}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at pageObjects.LoginPage.clkSubmit(LoginPage.java:50)
+	at stepDefinations.Steps.click_on_Login(Steps.java:104)
+	at ✽.And Click on Login(./Features/CustomerOperation.feature:7)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Customer Operation" name="Search Customer By emailID" time="30.948923">
+    <testcase classname="Customer Operation" name="Search Customer By emailID" time="45.389458">
         <system-out>
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
@@ -27,31 +58,51 @@ Then User should found Email on the search table............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="13.952842">
-        <system-out>
+    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="44.028484">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.login\-button&quot;}&#10;  (Session info: chrome=76.0.3809.132)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 76aa27611704d45a94d72f2cbaa1a789&#10;*** Element info: {Using=class name, value=login-button}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)&#13;&#10;&#9;at org.openqa.selenium.By$ByClassName.findElement(By.java:389)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy24.click(Unknown Source)&#13;&#10;&#9;at pageObjects.LoginPage.clkSubmit(LoginPage.java:50)&#13;&#10;&#9;at stepDefinations.Steps.click_on_Login(Steps.java:104)&#13;&#10;&#9;at ✽.And Click on Login(./Features/Login.feature:6)&#13;&#10;">
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
-And Click on Login..........................................................passed
-Then Page title should be "Dashboard / nopCommerce administration"..........passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven 2" time="10.459713">
-        <failure message="java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:135)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:116)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:190)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:200)&#13;&#10;&#9;at stepDefinations.Steps.page_title_should_be(Steps.java:116)&#13;&#10;&#9;at ✽.Then Page title should be &quot;Your store. Logins&quot;(./Features/Login.feature:7)&#13;&#10;">
-            <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin1"......passed
-And Click on Login..........................................................passed
-Then Page title should be "Your store. Logins"..............................failed
+And Click on Login..........................................................failed
+Then Page title should be "Dashboard / nopCommerce administration"..........skipped
 
 StackTrace:
-java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at stepDefinations.Steps.page_title_should_be(Steps.java:116)
-	at ✽.Then Page title should be "Your store. Logins"(./Features/Login.feature:7)
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".login\-button"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 76aa27611704d45a94d72f2cbaa1a789
+*** Element info: {Using=class name, value=login-button}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.click(Unknown Source)
+	at pageObjects.LoginPage.clkSubmit(LoginPage.java:50)
+	at stepDefinations.Steps.click_on_Login(Steps.java:104)
+	at ✽.And Click on Login(./Features/Login.feature:6)
 ]]>
         </failure>
+    </testcase>
+    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven 2" time="11.482939">
+        <system-out>
+            <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin1"......passed
+And Click on Login..........................................................passed
+Then Page title should be "Your store. Login"...............................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>

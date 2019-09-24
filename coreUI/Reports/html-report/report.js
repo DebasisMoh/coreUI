@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8745682618,
+  "duration": 24864334238,
   "status": "passed"
 });
 formatter.background({
@@ -56,22 +56,22 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 1478250081,
+  "duration": 289272415,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 7330068078,
-  "status": "passed"
+  "duration": 23134307,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\\-button\"}\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DEBASISLTOP\u0027, ip: \u0027192.168.0.140\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\\Users\\DEBASI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5923ec53e50e4dedcc316162e8f7acc5\n*** Element info: {Using\u003dclass name, value\u003dlogin-button}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat pageObjects.LoginPage.clkSubmit(LoginPage.java:50)\r\n\tat stepDefinations.Steps.click_on_Login(Steps.java:104)\r\n\tat ✽.And Click on Login(./Features/CustomerOperation.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "duration": 573158818,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 10,
@@ -115,29 +115,25 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "duration": 4134228848,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "duration": 4087637231,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.click_on_Add_New_button()"
 });
 formatter.result({
-  "duration": 3617707966,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.user_should_fill_all_the_details_and_save_it()"
 });
 formatter.result({
-  "duration": 7133954145,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -149,24 +145,22 @@ formatter.match({
   "location": "Steps.user_can_see_the_confirmation_message_as(String)"
 });
 formatter.result({
-  "duration": 427304857,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Steps.click_on_logout()"
 });
 formatter.result({
-  "duration": 2201229467,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.embedding("image/png", "embedded0.png");
-formatter.write("Scenario Passed..");
+formatter.write("Scenario Failed..");
 formatter.after({
-  "duration": 1335808487,
+  "duration": 1261134872,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6727639091,
+  "duration": 21115341889,
   "status": "passed"
 });
 formatter.background({
@@ -215,21 +209,21 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 768256046,
+  "duration": 713148603,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 8259627320,
+  "duration": 8447182562,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "duration": 19023406,
+  "duration": 14112542,
   "status": "passed"
 });
 formatter.scenario({
@@ -269,41 +263,41 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "duration": 4161674499,
+  "duration": 4152605643,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "duration": 3996032791,
+  "duration": 3707096662,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.enter_Customer_EmailID()"
 });
 formatter.result({
-  "duration": 426078651,
+  "duration": 793959892,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Search_button()"
 });
 formatter.result({
-  "duration": 5108480325,
+  "duration": 5130256206,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_found_Email_on_the_search_table()"
 });
 formatter.result({
-  "duration": 188724094,
+  "duration": 104729860,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded1.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1293386334,
+  "duration": 1211024024,
   "status": "passed"
 });
 formatter.uri("./Features/Login.feature");
@@ -380,7 +374,7 @@ formatter.examples({
         "http://admin-demo.nopcommerce.com/login",
         "admin@yourstore.com",
         "admin1",
-        "Your store. Logins"
+        "Your store. Login"
       ],
       "line": 13,
       "id": "login-into-nopcommerce;login-with-valid-credentials-using-data-driven;;3"
@@ -389,7 +383,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6072878681,
+  "duration": 42794988070,
   "status": "passed"
 });
 formatter.scenario({
@@ -442,15 +436,16 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 755016518,
+  "duration": 30259707,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 5709466362,
-  "status": "passed"
+  "duration": 37062103,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\\-button\"}\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DEBASISLTOP\u0027, ip: \u0027192.168.0.140\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\\Users\\DEBASI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 76aa27611704d45a94d72f2cbaa1a789\n*** Element info: {Using\u003dclass name, value\u003dlogin-button}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat pageObjects.LoginPage.clkSubmit(LoginPage.java:50)\r\n\tat stepDefinations.Steps.click_on_Login(Steps.java:104)\r\n\tat ✽.And Click on Login(./Features/Login.feature:6)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -462,17 +457,16 @@ formatter.match({
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 12057395,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.embedding("image/png", "embedded2.png");
-formatter.write("Scenario Passed..");
+formatter.write("Scenario Failed..");
 formatter.after({
-  "duration": 1403423114,
+  "duration": 1166174212,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7501471327,
+  "duration": 7658154061,
   "status": "passed"
 });
 formatter.scenario({
@@ -505,7 +499,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "Page title should be \"Your store. Logins\"",
+  "name": "Page title should be \"Your store. Login\"",
   "matchedColumns": [
     3
   ],
@@ -525,34 +519,33 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 901322685,
+  "duration": 871236253,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 763794973,
+  "duration": 1762061017,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Your store. Logins",
+      "val": "Your store. Login",
       "offset": 22
     }
   ],
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 39466821,
-  "error_message": "java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat stepDefinations.Steps.page_title_should_be(Steps.java:116)\r\n\tat ✽.Then Page title should be \"Your store. Logins\"(./Features/Login.feature:7)\r\n",
-  "status": "failed"
+  "duration": 18051980,
+  "status": "passed"
 });
 formatter.embedding("image/png", "embedded3.png");
-formatter.write("Scenario Failed..");
+formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1253656884,
+  "duration": 1173436059,
   "status": "passed"
 });
 });
