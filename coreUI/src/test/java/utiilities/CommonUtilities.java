@@ -1389,7 +1389,6 @@ public CommonUtilities(WebDriver driver) {
 	}
 	
 	public String PrintData(String data) {
-		
 		System.out.println(data);
 		return data;
 	}
