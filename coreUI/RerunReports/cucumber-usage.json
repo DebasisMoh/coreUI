@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^Click on Login$",
+    "steps": [
+      {
+        "name": "Click on Login",
+        "aggregatedDurations": {
+          "average": 0.849852116,
+          "median": 0.849852116
+        },
+        "durations": [
+          {
+            "duration": 0.849852116,
+            "location": "./Features/Login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Enter email as \"([^\"]*)\" and password as \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User Enter email as \"admin@yourstore.com\" and password as \"admin1\"",
+        "aggregatedDurations": {
+          "average": 2.010356401,
+          "median": 2.010356401
+        },
+        "durations": [
+          {
+            "duration": 2.010356401,
+            "location": "./Features/Login.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]
