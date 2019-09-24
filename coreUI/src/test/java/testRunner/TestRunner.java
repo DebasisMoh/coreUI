@@ -22,13 +22,14 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				"junit:Reports/cucumber-results.xml",
 				"com.cucumber.listener.ExtentCucumberFormatter:D:\\automationAtEsspl\\coreUI\\Reports\\extent-report\\extentreport.html",
 				"rerun:target/rerun.txt"}
-	//	monochrome = true
+	
 	//	tags= {"@sanity"}// {"@sanity , @regression"}
 		
 	)
-
+//monochrome = true
 
 public class TestRunner extends AbstractTestNGCucumberTests  {  
+	
 	
 }
 

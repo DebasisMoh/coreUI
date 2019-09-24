@@ -1388,7 +1388,11 @@ public CommonUtilities(WebDriver driver) {
 		return theNewestFile.getName();
 	}
 	
-	
+	public String PrintData(String data) {
+		
+		System.out.println(data);
+		return data;
+	}
 
 
 }
