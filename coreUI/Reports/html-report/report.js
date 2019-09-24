@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 14427609944,
+  "duration": 8745682618,
   "status": "passed"
 });
 formatter.background({
@@ -56,21 +56,21 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 2569675078,
+  "duration": 1478250081,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 10930043886,
+  "duration": 7330068078,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "duration": 71761271,
+  "duration": 573158818,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,28 +115,28 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "duration": 4252521332,
+  "duration": 4134228848,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "duration": 5057344779,
+  "duration": 4087637231,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Add_New_button()"
 });
 formatter.result({
-  "duration": 4314278176,
+  "duration": 3617707966,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_fill_all_the_details_and_save_it()"
 });
 formatter.result({
-  "duration": 18583597114,
+  "duration": 7133954145,
   "status": "passed"
 });
 formatter.match({
@@ -149,24 +149,24 @@ formatter.match({
   "location": "Steps.user_can_see_the_confirmation_message_as(String)"
 });
 formatter.result({
-  "duration": 713488617,
+  "duration": 427304857,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_logout()"
 });
 formatter.result({
-  "duration": 7683110688,
+  "duration": 2201229467,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1483848688,
+  "duration": 1335808487,
   "status": "passed"
 });
 formatter.before({
-  "duration": 12286147333,
+  "duration": 6727639091,
   "status": "passed"
 });
 formatter.background({
@@ -215,21 +215,21 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 1218283750,
+  "duration": 768256046,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 10484372123,
+  "duration": 8259627320,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "duration": 243741273,
+  "duration": 19023406,
   "status": "passed"
 });
 formatter.scenario({
@@ -269,41 +269,41 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "duration": 4272490336,
+  "duration": 4161674499,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "duration": 5842834952,
+  "duration": 3996032791,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.enter_Customer_EmailID()"
 });
 formatter.result({
-  "duration": 762606958,
+  "duration": 426078651,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Search_button()"
 });
 formatter.result({
-  "duration": 5276137475,
+  "duration": 5108480325,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_found_Email_on_the_search_table()"
 });
 formatter.result({
-  "duration": 183896443,
+  "duration": 188724094,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded1.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1426551000,
+  "duration": 1293386334,
   "status": "passed"
 });
 formatter.uri("./Features/Login.feature");
@@ -389,7 +389,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 12246786491,
+  "duration": 6072878681,
   "status": "passed"
 });
 formatter.scenario({
@@ -442,14 +442,14 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 1252233352,
+  "duration": 755016518,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 9162013008,
+  "duration": 5709466362,
   "status": "passed"
 });
 formatter.match({
@@ -462,17 +462,17 @@ formatter.match({
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 22398418,
+  "duration": 12057395,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded2.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 3366440529,
+  "duration": 1403423114,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11122154088,
+  "duration": 7501471327,
   "status": "passed"
 });
 formatter.scenario({
@@ -525,14 +525,14 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 1231352110,
+  "duration": 901322685,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 976160477,
+  "duration": 763794973,
   "status": "passed"
 });
 formatter.match({
@@ -545,14 +545,14 @@ formatter.match({
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 53279255,
-  "error_message": "java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinations.Steps.page_title_should_be(Steps.java:116)\r\n\tat ✽.Then Page title should be \"Your store. Logins\"(./Features/Login.feature:7)\r\n",
+  "duration": 39466821,
+  "error_message": "java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat stepDefinations.Steps.page_title_should_be(Steps.java:116)\r\n\tat ✽.Then Page title should be \"Your store. Logins\"(./Features/Login.feature:7)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded3.png");
 formatter.write("Scenario Failed..");
 formatter.after({
-  "duration": 1368830096,
+  "duration": 1253656884,
   "status": "passed"
 });
 });

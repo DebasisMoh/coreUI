@@ -55,12 +55,12 @@ Feature: Login into nopCommerce
     [32mAnd [0m[32mClick on Login[0m                                                     [90m# Steps.click_on_Login()[0m
     [31mThen [0m[31mPage title should be "[0m[31m[1mYour store. Logins[0m[31m"[0m                         [90m# Steps.page_title_should_be(String)[0m
       [31mjava.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]
-      	at org.testng.Assert.fail(Assert.java:93)
-      	at org.testng.Assert.failNotEquals(Assert.java:512)
-      	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-      	at org.testng.Assert.assertEquals(Assert.java:115)
-      	at org.testng.Assert.assertEquals(Assert.java:189)
-      	at org.testng.Assert.assertEquals(Assert.java:199)
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+      	at org.testng.Assert.assertEquals(Assert.java:116)
+      	at org.testng.Assert.assertEquals(Assert.java:190)
+      	at org.testng.Assert.assertEquals(Assert.java:200)
       	at stepDefinations.Steps.page_title_should_be(Steps.java:116)
       	at ✽.Then Page title should be "Your store. Logins"(./Features/Login.feature:7)
       [0m

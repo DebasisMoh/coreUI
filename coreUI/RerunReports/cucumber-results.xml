@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.946177">
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="14.946177">
-        <failure message="java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:93)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:512)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:134)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:189)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:199)&#13;&#10;&#9;at stepDefinations.Steps.page_title_should_be(Steps.java:114)&#13;&#10;&#9;at ✽.Then Page title should be &quot;Your store. Logins&quot;(./Features/Login.feature:7)&#13;&#10;">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.036071">
+    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="13.036071">
+        <failure message="java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:94)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:513)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:135)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:116)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:190)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:200)&#13;&#10;&#9;at stepDefinations.Steps.page_title_should_be(Steps.java:116)&#13;&#10;&#9;at ✽.Then Page title should be &quot;Your store. Logins&quot;(./Features/Login.feature:7)&#13;&#10;">
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin1"......passed
 And Click on Login..........................................................passed
 Then Page title should be "Your store. Logins"..............................failed
 
 StackTrace:
 java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at stepDefinations.Steps.page_title_should_be(Steps.java:114)
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at stepDefinations.Steps.page_title_should_be(Steps.java:116)
 	at ✽.Then Page title should be "Your store. Logins"(./Features/Login.feature:7)
 ]]>
         </failure>

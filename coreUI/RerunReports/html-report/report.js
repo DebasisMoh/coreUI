@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 10606515948,
+  "duration": 8766776266,
   "status": "passed"
 });
 formatter.scenario({
@@ -124,14 +124,14 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 2010356401,
+  "duration": 1034607275,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 849852116,
+  "duration": 1695718481,
   "status": "passed"
 });
 formatter.match({
@@ -144,14 +144,14 @@ formatter.match({
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 18207318,
-  "error_message": "java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinations.Steps.page_title_should_be(Steps.java:114)\r\n\tat ✽.Then Page title should be \"Your store. Logins\"(./Features/Login.feature:7)\r\n",
+  "duration": 43151477,
+  "error_message": "java.lang.AssertionError: expected [Your store. Login] but found [Your store. Logins]\r\n\tat org.testng.Assert.fail(Assert.java:94)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\r\n\tat org.testng.Assert.assertEquals(Assert.java:116)\r\n\tat org.testng.Assert.assertEquals(Assert.java:190)\r\n\tat org.testng.Assert.assertEquals(Assert.java:200)\r\n\tat stepDefinations.Steps.page_title_should_be(Steps.java:116)\r\n\tat ✽.Then Page title should be \"Your store. Logins\"(./Features/Login.feature:7)\r\n",
   "status": "failed"
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.write("Scenario Failed..");
 formatter.after({
-  "duration": 1461245606,
+  "duration": 1495817857,
   "status": "passed"
 });
 });

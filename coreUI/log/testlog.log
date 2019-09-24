@@ -520,3 +520,121 @@
 2019-09-16 14:41:45,164 - essplAutomation - INFO - ------Login------
 2019-09-16 14:42:08,862 - essplAutomation - INFO - ------Credential provided------
 2019-09-16 14:42:10,090 - essplAutomation - INFO - ------Login------
+2019-09-24 19:09:23,303 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:09:24,435 - essplAutomation - INFO - ------Login------
+2019-09-24 19:09:30,548 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 19:09:39,446 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 19:09:43,061 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 19:09:49,015 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 19:09:49,406 - essplAutomation - INFO - ------Logout page------
+2019-09-24 19:10:01,875 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:10:02,612 - essplAutomation - INFO - ------Login------
+2019-09-24 19:10:10,184 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 19:10:18,089 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 19:10:20,512 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 19:10:32,662 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:10:33,356 - essplAutomation - INFO - ------Login------
+2019-09-24 19:10:46,769 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:10:47,484 - essplAutomation - INFO - ------Login------
+2019-09-24 19:35:51,888 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:35:52,930 - essplAutomation - INFO - ------Login------
+2019-09-24 19:36:02,203 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 19:36:10,104 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 19:36:13,633 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 19:36:19,805 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 19:36:20,210 - essplAutomation - INFO - ------Logout page------
+2019-09-24 19:36:29,647 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:36:30,369 - essplAutomation - INFO - ------Login------
+2019-09-24 19:36:34,438 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 19:36:42,737 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 19:36:45,147 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 19:36:57,805 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:36:58,627 - essplAutomation - INFO - ------Login------
+2019-09-24 19:37:12,569 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:37:13,273 - essplAutomation - INFO - ------Login------
+2019-09-24 19:40:26,978 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:40:27,784 - essplAutomation - INFO - ------Login------
+2019-09-24 19:40:39,309 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:40:40,004 - essplAutomation - INFO - ------Login------
+2019-09-24 19:40:47,995 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 19:40:56,255 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 19:41:00,308 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 19:41:06,660 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 19:41:07,065 - essplAutomation - INFO - ------Logout page------
+2019-09-24 19:41:18,490 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:41:19,575 - essplAutomation - INFO - ------Login------
+2019-09-24 19:41:23,484 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 19:41:31,431 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 19:41:33,852 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 19:41:44,723 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:41:45,406 - essplAutomation - INFO - ------Login------
+2019-09-24 19:42:01,445 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 19:42:02,174 - essplAutomation - INFO - ------Login------
+2019-09-24 20:06:03,030 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:06:04,774 - essplAutomation - INFO - ------Login------
+2019-09-24 20:06:15,484 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:06:23,401 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 20:06:27,047 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 20:06:33,233 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 20:06:33,846 - essplAutomation - INFO - ------Logout page------
+2019-09-24 20:06:44,763 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:06:45,459 - essplAutomation - INFO - ------Login------
+2019-09-24 20:06:56,802 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:07:05,009 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 20:07:07,406 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 20:07:36,631 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:07:36,687 - essplAutomation - INFO - ------Login------
+2019-09-24 20:07:45,808 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:07:46,543 - essplAutomation - INFO - ------Login------
+2019-09-24 20:08:51,627 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 20:08:51,655 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:10:25,622 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:10:26,626 - essplAutomation - INFO - ------Login------
+2019-09-24 20:10:35,528 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:10:43,619 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 20:10:47,091 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 20:10:53,226 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 20:10:53,714 - essplAutomation - INFO - ------Logout page------
+2019-09-24 20:11:05,153 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:11:05,898 - essplAutomation - INFO - ------Login------
+2019-09-24 20:11:15,580 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:11:23,602 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 20:11:26,090 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 20:11:46,706 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:11:46,783 - essplAutomation - INFO - ------Login------
+2019-09-24 20:12:06,670 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:12:06,708 - essplAutomation - INFO - ------Login------
+2019-09-24 20:24:40,941 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 20:24:40,958 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:33:16,609 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:33:17,730 - essplAutomation - INFO - ------Login------
+2019-09-24 20:33:24,913 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:33:33,345 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 20:33:36,956 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 20:33:43,074 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 20:33:43,506 - essplAutomation - INFO - ------Logout page------
+2019-09-24 20:33:55,270 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:33:55,988 - essplAutomation - INFO - ------Login------
+2019-09-24 20:34:04,726 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:34:12,641 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 20:34:15,128 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 20:34:26,562 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:34:27,327 - essplAutomation - INFO - ------Login------
+2019-09-24 20:34:40,929 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:34:41,636 - essplAutomation - INFO - ------Login------
+2019-09-24 20:43:17,031 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:43:18,241 - essplAutomation - INFO - ------Login------
+2019-09-24 20:43:25,582 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:43:34,398 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 20:43:38,018 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 20:43:45,156 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 20:43:45,586 - essplAutomation - INFO - ------Logout page------
+2019-09-24 20:43:55,860 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:43:56,628 - essplAutomation - INFO - ------Login------
+2019-09-24 20:44:04,890 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 20:44:13,078 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 20:44:15,508 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 20:44:26,200 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:44:26,958 - essplAutomation - INFO - ------Login------
+2019-09-24 20:44:41,598 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 20:44:42,503 - essplAutomation - INFO - ------Login------
