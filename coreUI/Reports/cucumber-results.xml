@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="108.717234">
-    <testcase classname="Customer Operation" name="Add a new customer in customer page" time="39.225004">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="125.235729">
+    <testcase classname="Customer Operation" name="Add a new customer in customer page" time="50.114">
         <system-out>
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
@@ -14,7 +14,7 @@ Then click on logout........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Customer Operation" name="Search Customer By emailID" time="33.612307">
+    <testcase classname="Customer Operation" name="Search Customer By emailID" time="37.139865">
         <system-out>
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
@@ -27,7 +27,7 @@ Then User should found Email on the search table............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="24.122223">
+    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="21.327808">
         <system-out>
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
@@ -35,7 +35,7 @@ Then Page title should be "Dashboard / nopCommerce administration"..........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven 2" time="11.7577">
+    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven 2" time="16.654056">
         <system-out>
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin1"......passed
 And Click on Login..........................................................passed
