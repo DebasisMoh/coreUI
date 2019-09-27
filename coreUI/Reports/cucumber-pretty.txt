@@ -4,47 +4,17 @@ Feature: Customer Operation
     #Given User launch Chrome browser
     #When User open URL "http://admin-demo.nopcommerce.com/login"
     [32mAnd [0m[32mUser Enter email as "[0m[32m[1madmin@yourstore.com[0m[32m" and password as "[0m[32m[1madmin[0m[32m"[0m [90m# Steps.user_Enter_email_as_and_password_as(String,String)[0m
-    [31mAnd [0m[31mClick on Login[0m                                                    [90m# Steps.click_on_Login()[0m
-      [31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".login\-button"}
-        (Session info: chrome=76.0.3809.132)
-      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-      System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.4'
-      Driver info: org.openqa.selenium.chrome.ChromeDriver
-      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-      Session ID: 5923ec53e50e4dedcc316162e8f7acc5
-      *** Element info: {Using=class name, value=login-button}
-      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
-      	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-      	at com.sun.proxy.$Proxy24.click(Unknown Source)
-      	at pageObjects.LoginPage.clkSubmit(LoginPage.java:50)
-      	at stepDefinations.Steps.click_on_Login(Steps.java:104)
-      	at ✽.And Click on Login(./Features/CustomerOperation.feature:7)
-      [0m
-    [36mThen [0m[36muser should land on the Dashboard page[0m                           [90m# Steps.user_should_land_on_the_Dashboard_page()[0m
-[34mScenario Failed..[0m
+    [32mAnd [0m[32mClick on Login[0m                                                    [90m# Steps.click_on_Login()[0m
+    [32mThen [0m[32muser should land on the Dashboard page[0m                           [90m# Steps.user_should_land_on_the_Dashboard_page()[0m
+[34mScenario Passed..[0m
 
   Scenario: Add a new customer in customer page                                                  [90m# ./Features/CustomerOperation.feature:10[0m
-    [36mThen [0m[36muser should click on customer which is on the left sidebar[0m                              [90m# Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()[0m
-    [36mThen [0m[36mClick on Customer submenu of Customer menubar[0m                                           [90m# Steps.click_on_Customer_submenu_of_Customer_menubar()[0m
-    [36mThen [0m[36mClick on Add New button[0m                                                                 [90m# Steps.click_on_Add_New_button()[0m
-    [36mThen [0m[36mUser should fill all the details and save it[0m                                            [90m# Steps.user_should_fill_all_the_details_and_save_it()[0m
-    [36mThen [0m[36mUser can see the confirmation message as "[0m[36m[1mThe new customer has been added successfully[0m[36m"[0m [90m# Steps.user_can_see_the_confirmation_message_as(String)[0m
-    [36mThen [0m[36mclick on logout[0m                                                                         [90m# Steps.click_on_logout()[0m
+    [32mThen [0m[32muser should click on customer which is on the left sidebar[0m                              [90m# Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()[0m
+    [32mThen [0m[32mClick on Customer submenu of Customer menubar[0m                                           [90m# Steps.click_on_Customer_submenu_of_Customer_menubar()[0m
+    [32mThen [0m[32mClick on Add New button[0m                                                                 [90m# Steps.click_on_Add_New_button()[0m
+    [32mThen [0m[32mUser should fill all the details and save it[0m                                            [90m# Steps.user_should_fill_all_the_details_and_save_it()[0m
+    [32mThen [0m[32mUser can see the confirmation message as "[0m[32m[1mThe new customer has been added successfully[0m[32m"[0m [90m# Steps.user_can_see_the_confirmation_message_as(String)[0m
+    [32mThen [0m[32mclick on logout[0m                                                                         [90m# Steps.click_on_logout()[0m
 
   Background: Below are the common steps for each below scenario          [90m# ./Features/CustomerOperation.feature:3[0m
     #Given User launch Chrome browser
@@ -70,43 +40,13 @@ Feature: Login into nopCommerce
 
     # Then Close The Browser
     Examples: 
-[34mScenario Failed..[0m
+[34mScenario Passed..[0m
 
   Scenario Outline: Login with valid credentials using data driven        [90m# ./Features/Login.feature:12[0m
     #When User open URL "<RequiredURL>"
     [32mAnd [0m[32mUser Enter email as "[0m[32m[1madmin@yourstore.com[0m[32m" and password as "[0m[32m[1madmin[0m[32m"[0m [90m# Steps.user_Enter_email_as_and_password_as(String,String)[0m
-    [31mAnd [0m[31mClick on Login[0m                                                    [90m# Steps.click_on_Login()[0m
-      [31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".login\-button"}
-        (Session info: chrome=76.0.3809.132)
-      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-      System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '11.0.4'
-      Driver info: org.openqa.selenium.chrome.ChromeDriver
-      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-      Session ID: 76aa27611704d45a94d72f2cbaa1a789
-      *** Element info: {Using=class name, value=login-button}
-      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)
-      	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-      	at com.sun.proxy.$Proxy24.click(Unknown Source)
-      	at pageObjects.LoginPage.clkSubmit(LoginPage.java:50)
-      	at stepDefinations.Steps.click_on_Login(Steps.java:104)
-      	at ✽.And Click on Login(./Features/Login.feature:6)
-      [0m
-    [36mThen [0m[36mPage title should be "[0m[36m[1mDashboard / nopCommerce administration[0m[36m"[0m    [90m# Steps.page_title_should_be(String)[0m
+    [32mAnd [0m[32mClick on Login[0m                                                    [90m# Steps.click_on_Login()[0m
+    [32mThen [0m[32mPage title should be "[0m[32m[1mDashboard / nopCommerce administration[0m[32m"[0m    [90m# Steps.page_title_should_be(String)[0m
 [34mScenario Passed..[0m
 
   Scenario Outline: Login with valid credentials using data driven         [90m# ./Features/Login.feature:13[0m

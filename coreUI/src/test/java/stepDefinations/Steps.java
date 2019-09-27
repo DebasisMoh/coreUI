@@ -53,13 +53,25 @@ public class Steps extends BaseClass  {
 		}else if(brwsr.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", cnfgProp.getProperty("firefoxpath"));
 		    driver = new FirefoxDriver();
+		    System.out.println("browser is chrome");
+		    Thread.sleep(500);
+		    driver.get(URL);
+		    Thread.sleep(200);
 		}else if(brwsr.equals("ie")) {
 			System.setProperty("webdriver.ie.driver", cnfgProp.getProperty("iepath"));
 			 driver = new InternetExplorerDriver();
+			 System.out.println("browser is chrome");
+			    Thread.sleep(500);
+			    driver.get(URL);
+			    Thread.sleep(200);
 			
 		}else {
 			System.setProperty("webdriver.chrome.driver", cnfgProp.getProperty("chromepath"));
 		    driver = new ChromeDriver();
+		    System.out.println("browser is chrome");
+		    Thread.sleep(500);
+		    driver.get(URL);
+		    Thread.sleep(200);
 		}
 		//super.initializeObjects();
 		

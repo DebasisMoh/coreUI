@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 24864334238,
+  "duration": 8602101757,
   "status": "passed"
 });
 formatter.background({
@@ -56,22 +56,22 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 289272415,
+  "duration": 1095332567,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 23134307,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\\-button\"}\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DEBASISLTOP\u0027, ip: \u0027192.168.0.140\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\\Users\\DEBASI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 5923ec53e50e4dedcc316162e8f7acc5\n*** Element info: {Using\u003dclass name, value\u003dlogin-button}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat pageObjects.LoginPage.clkSubmit(LoginPage.java:50)\r\n\tat stepDefinations.Steps.click_on_Login(Steps.java:104)\r\n\tat ✽.And Click on Login(./Features/CustomerOperation.feature:7)\r\n",
-  "status": "failed"
+  "duration": 7943364479,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 36026077,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 10,
@@ -115,25 +115,29 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4152189663,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3767947532,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Add_New_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3684242493,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_fill_all_the_details_and_save_it()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5957580865,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -145,22 +149,24 @@ formatter.match({
   "location": "Steps.user_can_see_the_confirmation_message_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 468893842,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_logout()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2175791268,
+  "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
-formatter.write("Scenario Failed..");
+formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1261134872,
+  "duration": 1341533802,
   "status": "passed"
 });
 formatter.before({
-  "duration": 21115341889,
+  "duration": 7350373235,
   "status": "passed"
 });
 formatter.background({
@@ -209,21 +215,21 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 713148603,
+  "duration": 902021218,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 8447182562,
+  "duration": 8232814998,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "duration": 14112542,
+  "duration": 43321129,
   "status": "passed"
 });
 formatter.scenario({
@@ -263,41 +269,41 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "duration": 4152605643,
+  "duration": 4125891128,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "duration": 3707096662,
+  "duration": 4149640651,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.enter_Customer_EmailID()"
 });
 formatter.result({
-  "duration": 793959892,
+  "duration": 411017021,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Search_button()"
 });
 formatter.result({
-  "duration": 5130256206,
+  "duration": 5129800378,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_found_Email_on_the_search_table()"
 });
 formatter.result({
-  "duration": 104729860,
+  "duration": 114365633,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded1.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1211024024,
+  "duration": 3153062075,
   "status": "passed"
 });
 formatter.uri("./Features/Login.feature");
@@ -383,7 +389,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 42794988070,
+  "duration": 8757583039,
   "status": "passed"
 });
 formatter.scenario({
@@ -436,16 +442,15 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 30259707,
+  "duration": 818817288,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 37062103,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".login\\-button\"}\n  (Session info: chrome\u003d76.0.3809.132)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DEBASISLTOP\u0027, ip: \u0027192.168.0.140\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u002711.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\\Users\\DEBASI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:50043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 76aa27611704d45a94d72f2cbaa1a789\n*** Element info: {Using\u003dclass name, value\u003dlogin-button}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:408)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.click(Unknown Source)\r\n\tat pageObjects.LoginPage.clkSubmit(LoginPage.java:50)\r\n\tat stepDefinations.Steps.click_on_Login(Steps.java:104)\r\n\tat ✽.And Click on Login(./Features/Login.feature:6)\r\n",
-  "status": "failed"
+  "duration": 11006434112,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -457,16 +462,17 @@ formatter.match({
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8230857,
+  "status": "passed"
 });
 formatter.embedding("image/png", "embedded2.png");
-formatter.write("Scenario Failed..");
+formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1166174212,
+  "duration": 3531158080,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7658154061,
+  "duration": 6941450606,
   "status": "passed"
 });
 formatter.scenario({
@@ -519,14 +525,14 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 871236253,
+  "duration": 887318816,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 1762061017,
+  "duration": 749350974,
   "status": "passed"
 });
 formatter.match({
@@ -539,13 +545,13 @@ formatter.match({
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 18051980,
+  "duration": 29574456,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded3.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1173436059,
+  "duration": 3150005313,
   "status": "passed"
 });
 });

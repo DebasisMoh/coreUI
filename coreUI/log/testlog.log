@@ -649,3 +649,19 @@
 2019-09-24 21:03:07,475 - essplAutomation - INFO - ------Login------
 2019-09-24 21:03:16,354 - essplAutomation - INFO - ------Credential provided------
 2019-09-24 21:03:17,227 - essplAutomation - INFO - ------Login------
+2019-09-24 21:08:35,690 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 21:08:36,534 - essplAutomation - INFO - ------Login------
+2019-09-24 21:08:44,486 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 21:08:52,464 - essplAutomation - INFO - ------Customer Add New page------
+2019-09-24 21:08:56,150 - essplAutomation - INFO - ------Customer Details page------
+2019-09-24 21:09:02,112 - essplAutomation - INFO - ------Confirmation page------
+2019-09-24 21:09:02,583 - essplAutomation - INFO - ------Logout page------
+2019-09-24 21:09:13,463 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 21:09:14,368 - essplAutomation - INFO - ------Login------
+2019-09-24 21:09:22,614 - essplAutomation - INFO - ------Customer dashboard page------
+2019-09-24 21:09:30,952 - essplAutomation - INFO - ------Provide email for search------
+2019-09-24 21:09:33,366 - essplAutomation - INFO - ------Search Customer------
+2019-09-24 21:09:48,549 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 21:09:49,371 - essplAutomation - INFO - ------Login------
+2019-09-24 21:10:10,893 - essplAutomation - INFO - ------Credential provided------
+2019-09-24 21:10:11,779 - essplAutomation - INFO - ------Login------
