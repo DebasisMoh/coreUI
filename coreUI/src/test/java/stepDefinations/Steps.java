@@ -46,9 +46,9 @@ public class Steps extends BaseClass  {
 			System.setProperty("webdriver.chrome.driver", cnfgProp.getProperty("chromepath"));
 		    driver = new ChromeDriver();
 		    System.out.println("browser is chrome");
-		    Thread.sleep(500);
+		    Thread.sleep(300);
 		    driver.get(URL);
-		    Thread.sleep(200);
+		    Thread.sleep(500);
 		    driver.manage().window().maximize();
 		}else if(brwsr.equals("firefox")){
 			System.setProperty("webdriver.gecko.driver", cnfgProp.getProperty("firefoxpath"));
