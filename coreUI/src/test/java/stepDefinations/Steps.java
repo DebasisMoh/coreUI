@@ -100,10 +100,10 @@ public class Steps extends BaseClass  {
 	   lgnPg.setUserName(email);
 	   lgnPg.setPassword(password);
 //	   info.pass("Credential passed..");
-   info.addScreenCaptureFromPath(erL.captureScreenshot(driver));
-	}catch(Exception e) {
-		//erL.testStepHandle("FAIL",driver,info,e);
-	}
+	   info.addScreenCaptureFromPath(erL.captureScreenshot(driver));
+		}catch(Exception e) {
+			//erL.testStepHandle("FAIL",driver,info,e);
+		}
 	   
 	}
 
@@ -273,10 +273,5 @@ public class Steps extends BaseClass  {
 		sc.searchCustomerByFname("Victoria", "Terces");
 	   
 	}
-
-
-	
-	
-
 
 }

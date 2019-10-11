@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="125.235729">
-    <testcase classname="Customer Operation" name="Add a new customer in customer page" time="50.114">
-        <system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="69.379005">
+    <testcase classname="Customer Operation" name="Add a new customer in customer page" time="21.924458">
+        <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=77.0.3865.90)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 38a81a63474cb724be8c301802ab4a1c&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;&#10;&#9;at pageObjects.CustomerOperation.clickonCustomerMenuItem(CustomerOperation.java:58)&#13;&#10;&#9;at stepDefinations.Steps.click_on_Customer_submenu_of_Customer_menubar(Steps.java:192)&#13;&#10;&#9;at ✽.Then Click on Customer submenu of Customer menubar(./Features/CustomerOperation.feature:13)&#13;&#10;">
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
 Then user should land on the Dashboard page.................................passed
 Then user should click on customer which is on the left sidebar.............passed
-Then Click on Customer submenu of Customer menubar..........................passed
-Then Click on Add New button................................................passed
-Then User should fill all the details and save it...........................passed
-Then User can see the confirmation message as "The new customer has been added successfully".passed
-Then click on logout........................................................passed
+Then Click on Customer submenu of Customer menubar..........................failed
+Then Click on Add New button................................................skipped
+Then User should fill all the details and save it...........................skipped
+Then User can see the confirmation message as "The new customer has been added successfully".skipped
+Then click on logout........................................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=77.0.3865.90)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 38a81a63474cb724be8c301802ab4a1c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pageObjects.CustomerOperation.clickonCustomerMenuItem(CustomerOperation.java:58)
+	at stepDefinations.Steps.click_on_Customer_submenu_of_Customer_menubar(Steps.java:192)
+	at ✽.Then Click on Customer submenu of Customer menubar(./Features/CustomerOperation.feature:13)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="Customer Operation" name="Search Customer By emailID" time="37.139865">
+    <testcase classname="Customer Operation" name="Search Customer By emailID" time="29.376035">
         <system-out>
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
@@ -27,19 +51,11 @@ Then User should found Email on the search table............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="21.327808">
+    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="18.078512">
         <system-out>
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
 Then Page title should be "Dashboard / nopCommerce administration"..........passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven 2" time="16.654056">
-        <system-out>
-            <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin1"......passed
-And Click on Login..........................................................passed
-Then Page title should be "Your store. Login"...............................passed
 ]]>
         </system-out>
     </testcase>

@@ -23,7 +23,7 @@
 	    <version>2.22.2</version>
 	    <configuration>
           <includes>
-          	<exclude>**/*Demo.java</exclude>
+          	<exclude>**/*TestRunner.java</exclude>
           	</includes>
         </configuration>
 		</plugin>

@@ -20,14 +20,14 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				"pretty:Reports/cucumber-pretty.txt",
 				"usage:Reports/cucumber-usage.json",
 				"junit:Reports/cucumber-results.xml",
-				"com.cucumber.listener.ExtentCucumberFormatter:D:\\automationAtEsspl\\coreUI\\Reports\\extent-report\\extentreport.html",
+				"com.cucumber.listener.ExtentCucumberFormatter:C:\\Users\\debasismohanty\\git\\coreUI\\coreUI\\Reports\\extent-report\\extentreport.html",
 				"rerun:target/rerun.txt"}
 	
 	//	tags= {"@sanity"}// {"@sanity , @regression"}
 		
 	)
 //monochrome = true
-
+//test
 public class TestRunner extends AbstractTestNGCucumberTests  {  
 	
 	

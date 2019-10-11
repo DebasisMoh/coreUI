@@ -51,8 +51,7 @@ public class LoginPage {
 	}
 	
 	public void logout() throws Exception {
-//		myAccnt.click();
-//		Thread.sleep(100);
+		Thread.sleep(100);
 		logout.click();
 		
 	}

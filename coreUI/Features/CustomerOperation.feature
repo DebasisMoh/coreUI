@@ -1,13 +1,14 @@
 Feature: Customer Operation
   
+  
   Background: Below are the common steps for each below scenario
     #Given User launch Chrome browser
     #When User open URL "http://admin-demo.nopcommerce.com/login"
     And User Enter email as "admin@yourstore.com" and password as "admin"
     And Click on Login
     Then user should land on the Dashboard page
-
-  Scenario: Add a new customer in customer page
+  
+    Scenario: Add a new customer in customer page
     Then user should click on customer which is on the left sidebar
     Then Click on Customer submenu of Customer menubar
     Then Click on Add New button

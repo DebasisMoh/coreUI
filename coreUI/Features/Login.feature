@@ -1,5 +1,6 @@
 Feature: Login into nopCommerce
-
+		
+		@Login
     Scenario Outline: Login with valid credentials using data driven
     #When User open URL "<RequiredURL>"
     And User Enter email as "<Uname>" and password as "<pw>"

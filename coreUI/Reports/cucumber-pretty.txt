@@ -1,22 +1,45 @@
 Feature: Customer Operation
 
-  Background: Below are the common steps for each below scenario          [90m# ./Features/CustomerOperation.feature:3[0m
+  Background: Below are the common steps for each below scenario          [90m# ./Features/CustomerOperation.feature:4[0m
     #Given User launch Chrome browser
     #When User open URL "http://admin-demo.nopcommerce.com/login"
     [32mAnd [0m[32mUser Enter email as "[0m[32m[1madmin@yourstore.com[0m[32m" and password as "[0m[32m[1madmin[0m[32m"[0m [90m# Steps.user_Enter_email_as_and_password_as(String,String)[0m
     [32mAnd [0m[32mClick on Login[0m                                                    [90m# Steps.click_on_Login()[0m
     [32mThen [0m[32muser should land on the Dashboard page[0m                           [90m# Steps.user_should_land_on_the_Dashboard_page()[0m
-[34mScenario Passed..[0m
+[34mScenario Failed..[0m
 
-  Scenario: Add a new customer in customer page                                                  [90m# ./Features/CustomerOperation.feature:10[0m
+  Scenario: Add a new customer in customer page                                                  [90m# ./Features/CustomerOperation.feature:11[0m
     [32mThen [0m[32muser should click on customer which is on the left sidebar[0m                              [90m# Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()[0m
-    [32mThen [0m[32mClick on Customer submenu of Customer menubar[0m                                           [90m# Steps.click_on_Customer_submenu_of_Customer_menubar()[0m
-    [32mThen [0m[32mClick on Add New button[0m                                                                 [90m# Steps.click_on_Add_New_button()[0m
-    [32mThen [0m[32mUser should fill all the details and save it[0m                                            [90m# Steps.user_should_fill_all_the_details_and_save_it()[0m
-    [32mThen [0m[32mUser can see the confirmation message as "[0m[32m[1mThe new customer has been added successfully[0m[32m"[0m [90m# Steps.user_can_see_the_confirmation_message_as(String)[0m
-    [32mThen [0m[32mclick on logout[0m                                                                         [90m# Steps.click_on_logout()[0m
+    [31mThen [0m[31mClick on Customer submenu of Customer menubar[0m                                           [90m# Steps.click_on_Customer_submenu_of_Customer_menubar()[0m
+      [31morg.openqa.selenium.ElementNotInteractableException: element not interactable
+        (Session info: chrome=77.0.3865.90)
+      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+      System info: host: 'DEBASISLTOP', ip: '192.168.0.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+      Session ID: 38a81a63474cb724be8c301802ab4a1c
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+      	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+      	at pageObjects.CustomerOperation.clickonCustomerMenuItem(CustomerOperation.java:58)
+      	at stepDefinations.Steps.click_on_Customer_submenu_of_Customer_menubar(Steps.java:192)
+      	at ✽.Then Click on Customer submenu of Customer menubar(./Features/CustomerOperation.feature:13)
+      [0m
+    [36mThen [0m[36mClick on Add New button[0m                                                                 [90m# Steps.click_on_Add_New_button()[0m
+    [36mThen [0m[36mUser should fill all the details and save it[0m                                            [90m# Steps.user_should_fill_all_the_details_and_save_it()[0m
+    [36mThen [0m[36mUser can see the confirmation message as "[0m[36m[1mThe new customer has been added successfully[0m[36m"[0m [90m# Steps.user_can_see_the_confirmation_message_as(String)[0m
+    [36mThen [0m[36mclick on logout[0m                                                                         [90m# Steps.click_on_logout()[0m
 
-  Background: Below are the common steps for each below scenario          [90m# ./Features/CustomerOperation.feature:3[0m
+  Background: Below are the common steps for each below scenario          [90m# ./Features/CustomerOperation.feature:4[0m
     #Given User launch Chrome browser
     #When User open URL "http://admin-demo.nopcommerce.com/login"
     [32mAnd [0m[32mUser Enter email as "[0m[32m[1madmin@yourstore.com[0m[32m" and password as "[0m[32m[1madmin[0m[32m"[0m [90m# Steps.user_Enter_email_as_and_password_as(String,String)[0m
@@ -24,7 +47,7 @@ Feature: Customer Operation
     [32mThen [0m[32muser should land on the Dashboard page[0m                           [90m# Steps.user_should_land_on_the_Dashboard_page()[0m
 [34mScenario Passed..[0m
 
-  Scenario: Search Customer By emailID                              [90m# ./Features/CustomerOperation.feature:18[0m
+  Scenario: Search Customer By emailID                              [90m# ./Features/CustomerOperation.feature:19[0m
     [32mThen [0m[32muser should click on customer which is on the left sidebar[0m [90m# Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()[0m
     [32mThen [0m[32mClick on Customer submenu of Customer menubar[0m              [90m# Steps.click_on_Customer_submenu_of_Customer_menubar()[0m
     [32mAnd [0m[32mEnter Customer EmailID[0m                                      [90m# Steps.enter_Customer_EmailID()[0m
@@ -32,7 +55,8 @@ Feature: Customer Operation
     [32mThen [0m[32mUser should found Email on the search table[0m                [90m# Steps.user_should_found_Email_on_the_search_table()[0m
 Feature: Login into nopCommerce
 
-  Scenario Outline: Login with valid credentials using data driven [90m# ./Features/Login.feature:3[0m
+  @Login
+  Scenario Outline: Login with valid credentials using data driven [90m# ./Features/Login.feature:4[0m
     #When User open URL "<RequiredURL>"
     [36mAnd [0m[36mUser Enter email as "<Uname>" and password as "<pw>"[0m
     [36mAnd [0m[36mClick on Login[0m
@@ -42,15 +66,9 @@ Feature: Login into nopCommerce
     Examples: 
 [34mScenario Passed..[0m
 
-  Scenario Outline: Login with valid credentials using data driven        [90m# ./Features/Login.feature:12[0m
+  @Login
+  Scenario Outline: Login with valid credentials using data driven        [90m# ./Features/Login.feature:13[0m
     #When User open URL "<RequiredURL>"
     [32mAnd [0m[32mUser Enter email as "[0m[32m[1madmin@yourstore.com[0m[32m" and password as "[0m[32m[1madmin[0m[32m"[0m [90m# Steps.user_Enter_email_as_and_password_as(String,String)[0m
     [32mAnd [0m[32mClick on Login[0m                                                    [90m# Steps.click_on_Login()[0m
     [32mThen [0m[32mPage title should be "[0m[32m[1mDashboard / nopCommerce administration[0m[32m"[0m    [90m# Steps.page_title_should_be(String)[0m
-[34mScenario Passed..[0m
-
-  Scenario Outline: Login with valid credentials using data driven         [90m# ./Features/Login.feature:13[0m
-    #When User open URL "<RequiredURL>"
-    [32mAnd [0m[32mUser Enter email as "[0m[32m[1madmin@yourstore.com[0m[32m" and password as "[0m[32m[1madmin1[0m[32m"[0m [90m# Steps.user_Enter_email_as_and_password_as(String,String)[0m
-    [32mAnd [0m[32mClick on Login[0m                                                     [90m# Steps.click_on_Login()[0m
-    [32mThen [0m[32mPage title should be "[0m[32m[1mYour store. Login[0m[32m"[0m                          [90m# Steps.page_title_should_be(String)[0m

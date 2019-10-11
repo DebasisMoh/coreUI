@@ -1,17 +1,25 @@
 [
   {
-    "source": "^User should fill all the details and save it$",
+    "source": "^Click on Login$",
     "steps": [
       {
-        "name": "User should fill all the details and save it",
+        "name": "Click on Login",
         "aggregatedDurations": {
-          "average": 7.57367804,
-          "median": 7.57367804
+          "average": 6.820771409,
+          "median": 6.823708226
         },
         "durations": [
           {
-            "duration": 7.57367804,
-            "location": "./Features/CustomerOperation.feature:14"
+            "duration": 6.902473423,
+            "location": "./Features/CustomerOperation.feature:8"
+          },
+          {
+            "duration": 6.823708226,
+            "location": "./Features/CustomerOperation.feature:8"
+          },
+          {
+            "duration": 6.736132578,
+            "location": "./Features/Login.feature:7"
           }
         ]
       }
@@ -23,52 +31,21 @@
       {
         "name": "User Enter email as \"admin@yourstore.com\" and password as \"admin\"",
         "aggregatedDurations": {
-          "average": 2.408466197,
-          "median": 2.297310074
+          "average": 0.840908523,
+          "median": 0.746779623
         },
         "durations": [
           {
-            "duration": 3.385109713,
-            "location": "./Features/CustomerOperation.feature:6"
+            "duration": 1.081955386,
+            "location": "./Features/CustomerOperation.feature:7"
           },
           {
-            "duration": 2.297310074,
-            "location": "./Features/CustomerOperation.feature:6"
+            "duration": 0.693990562,
+            "location": "./Features/CustomerOperation.feature:7"
           },
           {
-            "duration": 1.542978806,
-            "location": "./Features/Login.feature:5"
-          }
-        ]
-      },
-      {
-        "name": "User Enter email as \"admin@yourstore.com\" and password as \"admin1\"",
-        "aggregatedDurations": {
-          "average": 2.508517033,
-          "median": 2.508517033
-        },
-        "durations": [
-          {
-            "duration": 2.508517033,
-            "location": "./Features/Login.feature:5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^User can see the confirmation message as \"([^\"]*)\"$",
-    "steps": [
-      {
-        "name": "User can see the confirmation message as \"The new customer has been added successfully\"",
-        "aggregatedDurations": {
-          "average": 0.970169556,
-          "median": 0.970169556
-        },
-        "durations": [
-          {
-            "duration": 0.970169556,
-            "location": "./Features/CustomerOperation.feature:15"
+            "duration": 0.746779623,
+            "location": "./Features/Login.feature:6"
           }
         ]
       }
@@ -80,12 +57,70 @@
       {
         "name": "User should found Email on the search table",
         "aggregatedDurations": {
-          "average": 0.194389638,
-          "median": 0.194389638
+          "average": 0.101171386,
+          "median": 0.101171386
         },
         "durations": [
           {
-            "duration": 0.194389638,
+            "duration": 0.101171386,
+            "location": "./Features/CustomerOperation.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Page title should be \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Page title should be \"Dashboard / nopCommerce administration\"",
+        "aggregatedDurations": {
+          "average": 0.066780251,
+          "median": 0.066780251
+        },
+        "durations": [
+          {
+            "duration": 0.066780251,
+            "location": "./Features/Login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should land on the Dashboard page$",
+    "steps": [
+      {
+        "name": "user should land on the Dashboard page",
+        "aggregatedDurations": {
+          "average": 0.045876179,
+          "median": 0.045876179
+        },
+        "durations": [
+          {
+            "duration": 0.076125623,
+            "location": "./Features/CustomerOperation.feature:9"
+          },
+          {
+            "duration": 0.015626736,
+            "location": "./Features/CustomerOperation.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Search button$",
+    "steps": [
+      {
+        "name": "Click on Search button",
+        "aggregatedDurations": {
+          "average": 5.122016895,
+          "median": 5.122016895
+        },
+        "durations": [
+          {
+            "duration": 5.122016895,
             "location": "./Features/CustomerOperation.feature:23"
           }
         ]
@@ -98,171 +133,12 @@
       {
         "name": "Enter Customer EmailID",
         "aggregatedDurations": {
-          "average": 0.858377689,
-          "median": 0.858377689
+          "average": 0.378542173,
+          "median": 0.378542173
         },
         "durations": [
           {
-            "duration": 0.858377689,
-            "location": "./Features/CustomerOperation.feature:21"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^click on logout$",
-    "steps": [
-      {
-        "name": "click on logout",
-        "aggregatedDurations": {
-          "average": 2.881411774,
-          "median": 2.881411774
-        },
-        "durations": [
-          {
-            "duration": 2.881411774,
-            "location": "./Features/CustomerOperation.feature:16"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^user should click on customer which is on the left sidebar$",
-    "steps": [
-      {
-        "name": "user should click on customer which is on the left sidebar",
-        "aggregatedDurations": {
-          "average": 4.405297139,
-          "median": 4.405297139
-        },
-        "durations": [
-          {
-            "duration": 4.450556291,
-            "location": "./Features/CustomerOperation.feature:11"
-          },
-          {
-            "duration": 4.360037988,
-            "location": "./Features/CustomerOperation.feature:19"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Click on Add New button$",
-    "steps": [
-      {
-        "name": "Click on Add New button",
-        "aggregatedDurations": {
-          "average": 4.221624582,
-          "median": 4.221624582
-        },
-        "durations": [
-          {
-            "duration": 4.221624582,
-            "location": "./Features/CustomerOperation.feature:13"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Click on Login$",
-    "steps": [
-      {
-        "name": "Click on Login",
-        "aggregatedDurations": {
-          "average": 6.489559284,
-          "median": 7.737774462
-        },
-        "durations": [
-          {
-            "duration": 7.580642843,
-            "location": "./Features/CustomerOperation.feature:7"
-          },
-          {
-            "duration": 7.894906081,
-            "location": "./Features/CustomerOperation.feature:7"
-          },
-          {
-            "duration": 8.303901764,
-            "location": "./Features/Login.feature:6"
-          },
-          {
-            "duration": 2.178786448,
-            "location": "./Features/Login.feature:6"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Page title should be \"([^\"]*)\"$",
-    "steps": [
-      {
-        "name": "Page title should be \"Dashboard / nopCommerce administration\"",
-        "aggregatedDurations": {
-          "average": 0.049614569,
-          "median": 0.049614569
-        },
-        "durations": [
-          {
-            "duration": 0.049614569,
-            "location": "./Features/Login.feature:7"
-          }
-        ]
-      },
-      {
-        "name": "Page title should be \"Your store. Login\"",
-        "aggregatedDurations": {
-          "average": 0.075993403,
-          "median": 0.075993403
-        },
-        "durations": [
-          {
-            "duration": 0.075993403,
-            "location": "./Features/Login.feature:7"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^user should land on the Dashboard page$",
-    "steps": [
-      {
-        "name": "user should land on the Dashboard page",
-        "aggregatedDurations": {
-          "average": 0.054459021,
-          "median": 0.054459021
-        },
-        "durations": [
-          {
-            "duration": 0.075358867,
-            "location": "./Features/CustomerOperation.feature:8"
-          },
-          {
-            "duration": 0.033559175,
-            "location": "./Features/CustomerOperation.feature:8"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "^Click on Search button$",
-    "steps": [
-      {
-        "name": "Click on Search button",
-        "aggregatedDurations": {
-          "average": 5.616382746,
-          "median": 5.616382746
-        },
-        "durations": [
-          {
-            "duration": 5.616382746,
+            "duration": 0.378542173,
             "location": "./Features/CustomerOperation.feature:22"
           }
         ]
@@ -275,16 +151,34 @@
       {
         "name": "Click on Customer submenu of Customer menubar",
         "aggregatedDurations": {
-          "average": 5.964563178,
-          "median": 5.964563178
+          "average": 3.541441671,
+          "median": 3.541441671
         },
         "durations": [
           {
-            "duration": 6.388540796,
+            "duration": 3.541441671,
+            "location": "./Features/CustomerOperation.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user should click on customer which is on the left sidebar$",
+    "steps": [
+      {
+        "name": "user should click on customer which is on the left sidebar",
+        "aggregatedDurations": {
+          "average": 4.117085505,
+          "median": 4.117085505
+        },
+        "durations": [
+          {
+            "duration": 4.11570474,
             "location": "./Features/CustomerOperation.feature:12"
           },
           {
-            "duration": 5.54058556,
+            "duration": 4.11846627,
             "location": "./Features/CustomerOperation.feature:20"
           }
         ]
