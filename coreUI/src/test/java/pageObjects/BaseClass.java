@@ -25,7 +25,7 @@ public class BaseClass {
 	public static Logger logger = Logger.getLogger("essplAutomation");
 	public static WebDriverWait wait;
 	public static FileInputStream fis;
-	//public static Properties config = new Properties();
+	
 	public static WebDriver driver;
 	public static LoginPage lgnPg;
 	public static CustomerOperation cusOpt;

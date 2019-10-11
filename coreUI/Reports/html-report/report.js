@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8432830937,
+  "duration": 8786350892,
   "status": "passed"
 });
 formatter.background({
@@ -56,21 +56,21 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 1081955386,
+  "duration": 1718670457,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 6902473423,
+  "duration": 6440093388,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "duration": 76125623,
+  "duration": 12662950,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,28 +115,29 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "duration": 4115704740,
+  "duration": 4116266223,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "duration": 68211731,
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d77.0.3865.90)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DEBASISLTOP\u0027, ip: \u0027192.168.0.140\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00279.0.4\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.90, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\\Users\\DEBASI~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 38a81a63474cb724be8c301802ab4a1c\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat pageObjects.CustomerOperation.clickonCustomerMenuItem(CustomerOperation.java:58)\r\n\tat stepDefinations.Steps.click_on_Customer_submenu_of_Customer_menubar(Steps.java:192)\r\n\tat ✽.Then Click on Customer submenu of Customer menubar(./Features/CustomerOperation.feature:13)\r\n",
-  "status": "failed"
+  "duration": 3675293179,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Add_New_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3555204041,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_fill_all_the_details_and_save_it()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6001780445,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -148,22 +149,24 @@ formatter.match({
   "location": "Steps.user_can_see_the_confirmation_message_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 445286199,
+  "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_logout()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2040402625,
+  "status": "passed"
 });
 formatter.embedding("image/png", "embedded0.png");
-formatter.write("Scenario Failed..");
+formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1247155757,
+  "duration": 3252490449,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7383024981,
+  "duration": 7589936293,
   "status": "passed"
 });
 formatter.background({
@@ -212,21 +215,21 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 693990562,
+  "duration": 743737956,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 6823708226,
+  "duration": 6213859211,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_land_on_the_Dashboard_page()"
 });
 formatter.result({
-  "duration": 15626736,
+  "duration": 196872238,
   "status": "passed"
 });
 formatter.scenario({
@@ -266,41 +269,41 @@ formatter.match({
   "location": "Steps.user_should_click_on_customer_which_is_on_the_left_sidebar()"
 });
 formatter.result({
-  "duration": 4118466270,
+  "duration": 4183560261,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Customer_submenu_of_Customer_menubar()"
 });
 formatter.result({
-  "duration": 3541441671,
+  "duration": 3685587637,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.enter_Customer_EmailID()"
 });
 formatter.result({
-  "duration": 378542173,
+  "duration": 451054984,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Search_button()"
 });
 formatter.result({
-  "duration": 5122016895,
+  "duration": 5222935312,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.user_should_found_Email_on_the_search_table()"
 });
 formatter.result({
-  "duration": 101171386,
+  "duration": 149458924,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded1.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 1198046522,
+  "duration": 1281131515,
   "status": "passed"
 });
 formatter.uri("./Features/Login.feature");
@@ -326,34 +329,22 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 5,
-      "value": "#When User open URL \"\u003cRequiredURL\u003e\""
-    }
-  ],
-  "line": 6,
+  "line": 5,
   "name": "User Enter email as \"\u003cUname\u003e\" and password as \"\u003cpw\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 6,
   "name": "Click on Login",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "Page title should be \"\u003ctitle\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "comments": [
-    {
-      "line": 9,
-      "value": "# Then Close The Browser"
-    }
-  ],
-  "line": 11,
+  "line": 10,
   "name": "",
   "description": "",
   "id": "login-into-nopcommerce;login-with-valid-credentials-using-data-driven;",
@@ -365,7 +356,7 @@ formatter.examples({
         "pw",
         "title"
       ],
-      "line": 12,
+      "line": 11,
       "id": "login-into-nopcommerce;login-with-valid-credentials-using-data-driven;;1"
     },
     {
@@ -375,18 +366,18 @@ formatter.examples({
         "admin",
         "Dashboard / nopCommerce administration"
       ],
-      "line": 13,
+      "line": 12,
       "id": "login-into-nopcommerce;login-with-valid-credentials-using-data-driven;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 7331489294,
+  "duration": 7233936756,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 13,
+  "line": 12,
   "name": "Login with valid credentials using data driven",
   "description": "",
   "id": "login-into-nopcommerce;login-with-valid-credentials-using-data-driven;;2",
@@ -400,13 +391,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 5,
-      "value": "#When User open URL \"\u003cRequiredURL\u003e\""
-    }
-  ],
-  "line": 6,
+  "line": 5,
   "name": "User Enter email as \"admin@yourstore.com\" and password as \"admin\"",
   "matchedColumns": [
     1,
@@ -415,12 +400,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 7,
+  "line": 6,
   "name": "Click on Login",
   "keyword": "And "
 });
 formatter.step({
-  "line": 8,
+  "line": 7,
   "name": "Page title should be \"Dashboard / nopCommerce administration\"",
   "matchedColumns": [
     3
@@ -441,14 +426,14 @@ formatter.match({
   "location": "Steps.user_Enter_email_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 746779623,
+  "duration": 777247623,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.click_on_Login()"
 });
 formatter.result({
-  "duration": 6736132578,
+  "duration": 4868834555,
   "status": "passed"
 });
 formatter.match({
@@ -461,13 +446,13 @@ formatter.match({
   "location": "Steps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 66780251,
+  "duration": 99064919,
   "status": "passed"
 });
 formatter.embedding("image/png", "embedded2.png");
 formatter.write("Scenario Passed..");
 formatter.after({
-  "duration": 3197330481,
+  "duration": 3349675909,
   "status": "passed"
 });
 });
