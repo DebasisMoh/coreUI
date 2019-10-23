@@ -33,8 +33,7 @@ public class Steps extends BaseClass  {
 	public void setUp() throws IOException, Exception {
 	PropertyConfigurator.configure("Log4j.properties");
 		
-		System.out.println("-------------------------error in setup----------------------------------");
-		
+				
 		cnfgProp = new Properties();
 		FileInputStream ConfigProf = new FileInputStream("config.properties");
 		cnfgProp.load(ConfigProf);
