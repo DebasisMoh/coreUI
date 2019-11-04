@@ -4,7 +4,7 @@ Feature: Login into nopCommerce
     Scenario Outline: Login with valid credentials using data driven
     And User Enter email as "<Uname>" and password as "<pw>"
     And Click on Login
-    Then Page title should be "<title>"
+    Then Page title should be "<title>" 
    
     Examples:
     |RequiredURL																|Uname									|pw						|title																			  |
