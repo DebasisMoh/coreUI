@@ -8,5 +8,5 @@ Feature: Login into nopCommerce
    
     Examples:
     |RequiredURL																|Uname									|pw						|title																			  |
-    |http://admin-demo.nopcommerce.com/login		|admin@yourstore.com		|admin  			|Dashboard / nopCommerce administration 			|
-    |http://admin-demo.nopcommerce.com/login		|admin@yourstore.com		|admin1	  		|Your store. Loginzzz				  								  |
+    |http://admin-demo.nopcommerce.com/login		|admin@yourstore.com		|admin  			|Dashboard / nopCommerce administrations			|
+   # |http://admin-demo.nopcommerce.com/login		|admin@yourstore.com		|admin1	  		|Your store. Loginzzz				  								  |
