@@ -1,38 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="86.091395">
-    <testcase classname="Customer Operation" name="Add a new customer in customer page" time="40.044501">
-        <system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.827763">
+    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="22.827763">
+        <failure message="org.openqa.selenium.WebDriverException: chrome not reachable&#10;  (Session info: chrome=78.0.3904.97)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'DEBASISLTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 0047a83629eba2780fd3af0dd3333fb3&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)&#13;&#10;&#9;at stepDefinations.Steps.page_title_should_be(Steps.java:129)&#13;&#10;&#9;at ✽.Then Page title should be &quot;Dashboard / nopCommerce administrations&quot;(./Features/Login.feature:7)&#13;&#10;">
             <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
 And Click on Login..........................................................passed
-Then user should land on the Dashboard page.................................passed
-Then user should click on customer which is on the left sidebar.............passed
-Then Click on Customer submenu of Customer menubar..........................passed
-Then Click on Add New button................................................passed
-Then User should fill all the details and save it...........................passed
-Then User can see the confirmation message as "The new customer has been added successfully".passed
-Then click on logout........................................................passed
+Then Page title should be "Dashboard / nopCommerce administrations".........failed
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=78.0.3904.97)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DEBASISLTOP', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '9.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 77.0.3865.40 (f484704e052e0..., userDataDir: C:\Users\DEBASI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61510}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0047a83629eba2780fd3af0dd3333fb3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+	at stepDefinations.Steps.page_title_should_be(Steps.java:129)
+	at ✽.Then Page title should be "Dashboard / nopCommerce administrations"(./Features/Login.feature:7)
 ]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Customer Operation" name="Search Customer By emailID" time="29.718134">
-        <system-out>
-            <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
-And Click on Login..........................................................passed
-Then user should land on the Dashboard page.................................passed
-Then user should click on customer which is on the left sidebar.............passed
-Then Click on Customer submenu of Customer menubar..........................passed
-And Enter Customer EmailID..................................................passed
-When Click on Search button.................................................passed
-Then User should found Email on the search table............................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Login into nopCommerce" name="Login with valid credentials using data driven" time="16.32876">
-        <system-out>
-            <![CDATA[And User Enter email as "admin@yourstore.com" and password as "admin".......passed
-And Click on Login..........................................................passed
-Then Page title should be "Dashboard / nopCommerce administration"..........passed
-]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

@@ -12,7 +12,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions
 	(
-		features= {".//Features/Login.feature",".//Features/CustomerOperation.feature"},//".//Features/Login.feature",///CustomerOperation.feature"
+		features= ".//Features/Login.feature", // {".//Features/Login.feature",".//Features/CustomerOperation.feature"},//".//Features/Login.feature",///CustomerOperation.feature"
 		glue= {"stepDefinations"},//,//It will inform on which packages steps are implimented
 		//dryRun=false,
 		plugin={"html:Reports/html-report",
