@@ -5,12 +5,12 @@
       {
         "name": "Click on Login",
         "aggregatedDurations": {
-          "average": 2.077740218,
-          "median": 2.077740218
+          "average": 9.177794132,
+          "median": 9.177794132
         },
         "durations": [
           {
-            "duration": 2.077740218,
+            "duration": 9.177794132,
             "location": "./Features/Login.feature:6"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "User Enter email as \"admin@yourstore.com\" and password as \"admin\"",
         "aggregatedDurations": {
-          "average": 1.774900277,
-          "median": 1.774900277
+          "average": 1.0192165,
+          "median": 1.0192165
         },
         "durations": [
           {
-            "duration": 1.774900277,
+            "duration": 1.0192165,
             "location": "./Features/Login.feature:5"
           }
         ]
